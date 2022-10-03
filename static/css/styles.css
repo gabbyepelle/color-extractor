@@ -1,0 +1,69 @@
+.body{
+font-family: 'Lato', sans-serif;
+font-size: 2em;
+}
+
+.upload{
+color: white;
+text-align: center;
+padding-top: 30px;
+font-family: 'Noto Sans Mono', monospace;
+
+}
+.page-title{
+padding-top: 20px;
+padding-bottom: 15px;
+font-size: 7em;
+font-family: 'Rock Salt', cursive;
+}
+h2{
+padding-bottom: 20px;
+font-size: 2.5em;
+
+}
+.form{
+font-size: 1.2em;
+position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 400px;
+
+}
+
+table, th, td {
+margin-left: auto;
+margin-right: auto;
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+.analysis{
+text-align: center;
+font-family: 'Noto Sans Mono', monospace;
+width: auto;
+padding: 15px;
+}
+
+.image{
+height: auto;
+max-width: 100%;
+}
+.uploaded-image{
+height: auto;
+max-width: 100%;
+}
+.breakdown{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.btn{
+padding-bottom: 10px;
+}
+
+.header{
+padding-bottom:20px;
+}
