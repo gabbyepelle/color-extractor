@@ -1,6 +1,7 @@
 .body{
 font-family: 'Lato', sans-serif;
 font-size: 2em;
+
 }
 
 .upload{
@@ -11,13 +12,12 @@ font-family: 'Noto Sans Mono', monospace;
 
 }
 .page-title{
-padding-top: 20px;
-padding-bottom: 15px;
+padding: 20px 0;
 font-size: 7em;
 font-family: 'Rock Salt', cursive;
 }
 h2{
-padding-bottom: 20px;
+padding-bottom: 50px;
 font-size: 2.5em;
 
 }
@@ -33,6 +33,14 @@ position: absolute;
   height: 400px;
 
 }
+
+input::file-selector-button, input {
+  border: none;
+  border-radius: 3px;
+  padding: 5px 7px;
+}
+
+
 
 table, th, td {
 margin-left: auto;

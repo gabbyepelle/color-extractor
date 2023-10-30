@@ -16,15 +16,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-<style>
+    <style>
     body{
-  background-image: url("/static/img/rainbow.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-    }
-</style>
+        background-image: url("/static/img/rainbow.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        }
+    </style>
 </head>
 <body>
 <div class="upload container-fluid">
@@ -32,7 +30,7 @@
         <div class="form">
     <h2>Upload Picture</h2>
     <form method=post enctype=multipart/form-data>
-      <input type=file name=file>
+        <label for="file" class="file-upload"><input type=file name=file id="file"></label>
       <input type=submit value=Upload>
     </form>
     </div>
